@@ -1,0 +1,23 @@
+form{
+    background-color: #b4dcdc;
+    width: 40%;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+
+}
+input[type=text], input[type=email], input[type=password], input[type=tel]{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 6px;
+}
+button{
+    background-color: darkgrey;
+}
