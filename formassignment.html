@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM</title>
+    <style>
+        #main{
+            margin: 80px;
+            display: flex;
+        }
+        #main1{
+            background-color: darkcyan;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        #main2{
+            padding: 40px;
+            width: 350px;
+            background-color: white;
+        }
+        input[type=text], input[type=email], input[type=tel]{
+            width: 100%;
+            height: 30px;
+            margin-top: 9px;
+            border-collapse: collapse;
+            background-color: whitesmoke;
+        }
+        body{
+            background-color: blueviolet;
+        }
+        button{
+            background-color: darkcyan;
+            border-radius: 20px;
+            width: 150px;
+            height: 50px;
+            color: white;
+        }
+
+    </style>
+    
+</head>
+<body>
+<div id="main">
+ <div id="main1">
+     <h1>let's Chat </h1>
+     <p>Whether you have a question, want to <br>start a project or simply want to connect.</p>
+     <p>Feel free to send me a message in the <br>contact form</p>
+ </div>
+ <div id="main2">
+     <h1>Contact Us</h1>
+  <label for="fname"></label>
+  <input type="text" id="fname" placeholder="Name" required="required">
+  <br>
+  <label for="email"></label>
+  <input type="email" id="email" placeholder="Email" required="required">
+     <br>
+  <label for="company"></label>
+  <input type="text" id="company" placeholder="Company" required="required">
+  <br>
+     <label for="contact"></label>
+  <input type="tel" id="contact" placeholder="Phone" required="required">
+  <br>
+     <label for="descrption"></label><br>
+  <textarea name="" id="descrption" cols="30" rows="5" placeholder="Message"></textarea>
+  <br>
+  <button type="submit">Submit</button>
+ </div>
+
+</div>
+</body>
+</html>
