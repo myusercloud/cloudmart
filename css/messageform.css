@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+}
+#main{
+    display: flex;
+    margin: 80px;
+}
+#div1{
+    width: 50%;
+    background-color: darkcyan;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+}
+#div2{
+    width: 50%;
+    padding: 30px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+input[type=text] ,input[type=email], input[type=tel], textarea{
+    width: 100%;
+}
+button{
+    background-color: darkcyan;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
